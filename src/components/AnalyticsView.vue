@@ -64,9 +64,7 @@ export default {
     resize(event) {
 
       iframeResize(
-        {
-          bodyBackground: "#efefef",
-        },
+        {},
         event.target
       );
 
